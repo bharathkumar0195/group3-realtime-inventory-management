@@ -34,7 +34,6 @@ The following examples explain **why the current draft accepts or does not selec
 4. **Workload estimates — qualify, do not treat as verified.** ChatGPT proposed example frequencies and volumes. The figures in `DESIGN_BRIEF.md` remain *hypothetical assumptions*, not observed usage or measured throughput. Phase 3 should benchmark the working implementation before making performance claims.
 5. **Project scope — simplify.** A database, web interface, or multi-user real-time synchronization might be suitable for production, but the current Phase 1 design intentionally uses an in-memory Python CLI for a manageable five-hour implementation handoff. The system does not persist after exit and has no concurrent-update guarantees.
 
-**Group review before submission:** Each member should check these decisions against the design brief, identify any inaccuracies, and agree on the final wording. Edit this appendix if the group chooses different structures or actually reviews additional AI suggestions. Do not describe an unperformed benchmark or team review as completed.
 
 ## 4. Critical checks and limitations identified
 - The workload figures (for example, 10,000 initial products, 100,000 future products, and estimated operations per second) are **hypothetical design assumptions**, not measured benchmarks or achieved performance.
