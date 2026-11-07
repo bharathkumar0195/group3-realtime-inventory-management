@@ -1,5 +1,7 @@
 # Real-Time Inventory Management System — Group 3
 
+Phase 3: see [the run guide](PHASE3_RUN.md) for the urgency query, tests, seeded benchmark, and profiling commands.
+
 **Course residency / Phase 1 design package (November 6, 2026).**
 
 ## Purpose
