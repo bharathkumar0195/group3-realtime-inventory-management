@@ -42,3 +42,52 @@ No web UI, databases, login system, multi-user concurrency, hardware integration
 
 ## Version checkpoint
 Inherited baseline tag: `phase1-final` (create only after files are finalized). Do not overwrite the tag. New teams should branch from it or use the professor-assigned repo workflow.
+
+
+
+# Phase 2 → Phase 3 Handof
+
+**Project:** Group 3 – Real-Time Inventory Management System
+
+## Phase 2 – Completed
+
+Developed a Python-based inventory management system with a Streamlit UI supporting seven functions:
+
+1. Add Product
+2. Find Product by SKU
+3. Receive Stock
+4. Sell Stock
+5. Low-Stock Alerts
+6. Inventory Report
+7. Transaction History
+
+**Data Structures:**
+- Dictionary – Fast product lookup (O(1) average)
+- Set – Low-stock tracking (O(1) average)
+- List – Transaction history (O(1) amortized append)
+
+**Testing:** All 10 unit tests passed.
+
+## Phase 3 – Planned Enhancements
+
+- Integrate SQLite for persistent data storage.
+- Connect the database with Python logic and Streamlit UI.
+- Improve input validation and error handling.
+- Enhance inventory reporting.
+- Perform integration testing.
+
+## Phase 4 – Final Delivery
+
+- Conduct end-to-end and performance testing.
+- Fix bugs and improve application reliability.
+- Prepare deployment instructions.
+- Finalize documentation and README.
+- Complete the final project presentation.
+
+## Handoff Summary
+
+Phase 2 delivered a working inventory management prototype.
+
+Phase 3 will focus on database integration and system improvements.
+
+Phase 4 will focus on testing, deployment preparation, and final project delivery.

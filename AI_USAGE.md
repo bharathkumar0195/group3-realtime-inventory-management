@@ -55,3 +55,29 @@ The following are **professionally edited summaries** of substantive requests to
 4. How should the AI Usage Appendix explain accepted and rejected recommendations, errors identified in AI-generated work, and the required APA-formatted deliverables?
 
 **Incorrect or incomplete AI guidance requiring correction:** The initial ChatGPT document package was described as final before the complete Blackboard requirements had been checked. It lacked the explicitly required APA presentation and at least three peer-reviewed references. This was not sufficient for the written design brief. The corrected package includes `Group3_Phase1_Design_Brief_APA.docx` with scholarly references and in-text citations. AI-proposed throughput figures are also explicitly labeled as assumptions rather than measured results. 
+
+
+# AI Usage Appendix — Phase 2
+
+**Tool:** OpenAI ChatGPT (GPT-6)  
+**Purpose:** Assistance with Python inventory logic, tests, Streamlit UI, debugging, and documentation.
+
+## AI Assistance
+
+ChatGPT was used to help:
+- Understand the inherited Group 3 design and explain its data structures.
+- Develop and review inventory operations and unit tests.
+- Build a Streamlit UI for the seven inventory functions.
+- Troubleshoot the NumPy/Pandas compatibility error.
+- Draft the GitHub README and Phase 3–4 handoff.
+
+## Technical Review
+
+The Phase 2 design uses a **dictionary** for product lookup, a **set** for low-stock SKUs, and a **list** for transaction history. Input validation prevents invalid quantities, and rejected sales must leave stock unchanged. Report ordering and complexity should be checked against the final code.
+
+## Testing and Responsibility
+
+The 10 original inventory unit tests passed during review. Team members must verify the final version, document any changes, and be able to explain the implementation independently.
+
+**Team review / changes:** [Complete before submission.]
+
