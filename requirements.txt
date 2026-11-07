@@ -1,1 +1,2 @@
-# Phase 1 is design only. No third-party dependencies required for planned Python CLI.
+# Optional web UI; core tests and benchmarks use only the standard library.
+-r src/requirements.txt

@@ -1,0 +1,26 @@
+         5281002 function calls in 0.907 seconds
+
+   Ordered by: cumulative time
+   List reduced from 29 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.907    0.907 benchmark_urgent.py:80(run_workload)
+      500    0.000    0.000    0.903    0.002 benchmark_urgent.py:40(heap_query)
+      500    0.000    0.000    0.903    0.002 inventory.py:101(top_k_urgent)
+      500    0.420    0.001    0.903    0.002 heapq.py:463(nsmallest)
+  2613250    0.251    0.000    0.251    0.000 inventory.py:112(<genexpr>)
+  2612750    0.219    0.000    0.219    0.000 inventory.py:115(<lambda>)
+    35500    0.008    0.000    0.008    0.000 {built-in method _heapq._heapreplace_max}
+      500    0.004    0.000    0.005    0.000 heapq.py:507(<listcomp>)
+      500    0.001    0.000    0.003    0.000 inventory.py:77(adjust_stock)
+      500    0.000    0.000    0.001    0.000 benchmark_urgent.py:44(values)
+      500    0.001    0.000    0.001    0.000 {method 'isoformat' of 'datetime.datetime' objects}
+      500    0.001    0.000    0.001    0.000 {method 'sort' of 'list' objects}
+     5500    0.000    0.000    0.000    0.000 benchmark_urgent.py:45(<genexpr>)
+      500    0.000    0.000    0.000    0.000 inventory.py:47(_required_text)
+      500    0.000    0.000    0.000    0.000 {built-in method now}
+      500    0.000    0.000    0.000    0.000 heapq.py:521(<listcomp>)
+      500    0.000    0.000    0.000    0.000 <string>:2(__init__)
+      500    0.000    0.000    0.000    0.000 inventory.py:41(_valid_nonnegative_int)
+      500    0.000    0.000    0.000    0.000 {built-in method _heapq._heapify_max}
+      500    0.000    0.000    0.000    0.000 inventory.py:53(_update_low_stock)
