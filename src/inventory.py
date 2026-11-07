@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
+from heapq import nsmallest
 import math
 from typing import Dict, List, Set
 
@@ -96,6 +97,23 @@ class InventoryManager:
     def low_stock_report(self) -> list[Product]:
         """Return flagged products sorted by SKU (O(k log k) for k low-stock SKUs)."""
         return [self.products[sku] for sku in sorted(self.low_stock)]
+
+    def top_k_urgent(self, k: int) -> list[Product]:
+        """Return low-stock products by descending shortfall, then ascending SKU.
+
+        k must be a nonnegative integer, excluding bool. Return at most k
+        existing records without changing stock, index membership, or history.
+        For small k, selection uses O(m log k) time and O(k) extra space,
+        where m is the number of low-stock products (O(m) time for k=1).
+        """
+        k = self._valid_nonnegative_int(k, "k")
+        if k == 0:
+            return []
+        products = (self.products[sku] for sku in self.low_stock)
+        return nsmallest(
+            k, products,
+            key=lambda product: (-(product.min_stock - product.quantity), product.sku),
+        )
 
     def inventory_report(self) -> list[Product]:
         """Return all products in SKU order (O(n log n) including sorting)."""
