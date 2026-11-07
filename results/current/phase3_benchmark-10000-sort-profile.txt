@@ -1,0 +1,25 @@
+         5240502 function calls in 1.392 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.392    1.392 benchmark_phase3.py:71(run_workload)
+      500    0.003    0.000    1.387    0.003 benchmark_phase3.py:22(full_sort)
+      500    0.900    0.002    1.384    0.003 {built-in method builtins.sorted}
+  2612750    0.250    0.000    0.250    0.000 benchmark_phase3.py:25(<lambda>)
+  2613250    0.235    0.000    0.235    0.000 benchmark_phase3.py:24(<genexpr>)
+      500    0.001    0.000    0.003    0.000 inventory.py:77(adjust_stock)
+      500    0.001    0.000    0.001    0.000 benchmark_phase3.py:35(values)
+      500    0.001    0.000    0.001    0.000 {method 'isoformat' of 'datetime.datetime' objects}
+     5500    0.001    0.000    0.001    0.000 benchmark_phase3.py:36(<genexpr>)
+      500    0.000    0.000    0.000    0.000 inventory.py:47(_required_text)
+      500    0.000    0.000    0.000    0.000 <string>:2(__init__)
+      500    0.000    0.000    0.000    0.000 {built-in method now}
+      500    0.000    0.000    0.000    0.000 inventory.py:53(_update_low_stock)
+     1500    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+      500    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      250    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      250    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}

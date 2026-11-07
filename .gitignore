@@ -4,3 +4,10 @@ __pycache__/
 .env
 .pytest_cache/
 .DS_Store
+
+# Local exports and quick checks
+/quick_check.csv
+/baseline_results.csv
+/inventory_input.csv
+/benchmark_results.csv
+/phase3_benchmark_results.csv
