@@ -14,7 +14,6 @@ ChatGPT was used as a drafting and brainstorming assistant to:
 The application topic, **Real-Time Inventory Management System using Python**, was selected by Group 3. ChatGPT assisted with documenting and refining that topic; it did not independently make the group's final project choice.
 
 ## 2. AI-generated options considered and design decisions
-The following are **design choices reflected in the current draft**. They should be checked and approved by the whole group before submission.
 
 | Option considered with AI assistance | Current decision | Reason / trade-off |
 |---|---|---|
@@ -46,7 +45,6 @@ The following examples explain **why the current draft accepts or does not selec
 ## 5. Human review and responsibility
 ChatGPT produced draft material, not an independently verified implementation. Before the group submits, members should check the requirements against the instructor's rubric, confirm the proposed choices and assumed workload, check the final document length, and ensure the GitHub handoff is understandable. **Group 3 is responsible for its final technical decisions, presentation, and submissions.**
 
-**Team confirmation before submission:** Review this appendix and remove or correct any statement that does not accurately describe how your team used AI or what your team decided.
 
 ## 6. Significant AI requests and specific AI correction (Blackboard requirement)
 The following are **professionally edited summaries** of substantive requests to ChatGPT, **not verbatim quotations**. Original prompts can be consulted in the conversation history if an exact transcript is required.
