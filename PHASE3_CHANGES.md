@@ -39,6 +39,6 @@ Raw evidence: [current samples](results/current/phase3_benchmark.csv), [current 
 
 The query avoids maintaining a permanent ranking index, so stock updates need no new index work. It scans low-stock records on each call. Memory bounds are algorithmic analysis; memory usage was not measured. Results cover one synthetic distribution and one machine. Stronger read-only checks increase verification time outside the timed workload.
 
-The system remains in memory and single-process. Product records are mutable, so callers must use manager methods for stock changes. Any separate instructor-supplied dataset or harness still requires its own validation. These results support the code handoff; final optimization notes, the required appendix, live defense, and phase freeze remain separate deliverables.
+The system remains in memory and single-process. Product records are mutable, so callers must use manager methods for stock changes. Any separate instructor-supplied dataset or harness still requires its own validation. The [optimization notes](MSCS532_Phase3_Optimization_Notes.docx) contain the written handoff and required appendix. Use the phase3-final tag for the frozen repository state.
 
 Use the [run guide](PHASE3_RUN.md) to reproduce the tests, measurements, and profiles.
