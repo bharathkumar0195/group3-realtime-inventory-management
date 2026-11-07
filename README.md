@@ -2,10 +2,13 @@
 
 MSCS 532 residency project. The program registers products, finds them by SKU, adjusts stock, reports low-stock products, and records successful stock changes. Phase 3 adds a read-only urgency query and reproducible performance comparisons.
 
+- [Optimization notes](MSCS532_Phase3_Optimization_Notes.docx): two-page written handoff with the required appendix.
 - [Run guide](PHASE3_RUN.md): setup, tests, demonstrations, and benchmark modes.
 - [Changes and measured speedups](PHASE3_CHANGES.md): what changed, why, results, and limitations.
 - [Current results](results/current/): integrated benchmark samples and profiles.
 - [Earlier results](results/earlier/): preserved measurements from the original benchmark runner.
+
+The frozen handoff is identified by the phase3-final tag.
 
 ## Run
 
